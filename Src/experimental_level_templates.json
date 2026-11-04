@@ -1,0 +1,14 @@
+{
+  "levels": [
+    {"asteroid_count": 1, "asteroid_speeds": "slow", "powerup_count": 4, "powerup_types": ["shield"], "target_count": 3},
+    {"asteroid_count": 2, "asteroid_speeds": "slow", "powerup_count": 4, "powerup_types": ["shield"], "target_count": 3},
+    {"asteroid_count": 2, "asteroid_speeds": "medium", "powerup_count": 3, "powerup_types": ["shield"], "target_count": 3},
+    {"asteroid_count": 3, "asteroid_sizes": "varied", "asteroid_speeds": "medium", "powerup_count": 3, "powerup_types": ["shield"], "target_count": 3},
+    {"asteroid_count": 4, "asteroid_sizes": "varied", "asteroid_speeds": "medium", "powerup_count": 2, "powerup_types": ["shield"], "target_count": 3},
+    {"asteroid_count": 4, "asteroid_sizes": "medium", "asteroid_speeds": "fast", "powerup_count": 2, "powerup_types": ["shield"], "target_count": 3},
+    {"asteroid_count": 5, "asteroid_sizes": "medium", "asteroid_speeds": "fast", "powerup_count": 1, "powerup_types": ["shield"], "target_count": 3},
+    {"asteroid_count": 6, "asteroid_sizes": "small", "asteroid_speeds": "fast", "powerup_count": 1, "powerup_types": ["shield"], "target_count": 3},
+    {"asteroid_count": 7, "asteroid_sizes": "small", "asteroid_speeds": "fast", "powerup_count": 1, "powerup_types": ["shield"], "target_count": 3},
+    {"asteroid_count": 8, "asteroid_sizes": "varied", "asteroid_speeds": "extreme", "powerup_count": 1, "powerup_types": ["shield"], "target_count": 3}
+  ]
+}

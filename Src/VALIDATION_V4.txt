@@ -1,0 +1,25 @@
+ASTEROID IMPACT FEEDBACK-CONTROLLED 3-BACK V4 - VALIDATION
+================================================================
+
+Automated checks completed before packaging:
+
+1. Python source files compile successfully.
+2. part_a_protocol.json parses successfully.
+3. Schedule generation was tested for 30 subject IDs across practice,
+   calibration, control, cognitive, perceptual, and combined blocks.
+4. Every experimental condition contains 43 presentations and exactly
+   40 scored 3-back trials.
+5. Every experimental condition contains exactly 10 trials of each:
+   exact match, line difference, dot difference, and both difference.
+6. Each nonmatch comparison type contains 5 small and 5 large changes.
+7. The same-color cue always recurs exactly three trials later.
+8. Exact N-1 and N-2 lures equal zero.
+9. Partial N-1 and N-2 overlaps equal 8 each in every condition.
+10. Distractor counts among scored trials are balanced as specified.
+11. A simulated 43-presentation block produced a 56-column CSV with
+    40 scored responses and correct accuracy/lure fields.
+12. Fullscreen remains the default and all staircase levels specify zero
+    power-ups.
+
+The R analysis file also checks presentation counts, scored-trial counts,
+comparison-type counts, exact lure exclusions, and partial-overlap balance.

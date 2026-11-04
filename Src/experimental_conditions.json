@@ -1,0 +1,78 @@
+{
+  "output_trigger_settings": {"mode": "none"},
+  "steps": [
+    {
+      "action": "text",
+      "title": "Perceptual load",
+      "text": "Collect crystals while avoiding asteroids. This block contains equally many visual-banner and sound-notification trials. Click to begin."
+    },
+    {
+      "action": "game-adaptive",
+      "duration": 240,
+      "condition": "perceptual",
+      "staircase_trials": 80,
+      "start_level": 3.5,
+      "level_completion_increment": 0.4,
+      "level_death_decrement": 0.3,
+      "continuous_asteroids_on_same_level": true,
+      "show_advance_countdown": false,
+      "level_templates": "experimental_level_templates.json",
+      "experimental_condition": {
+        "name": "perceptual", "trial_count": 80, "trial_duration_ms": 6000,
+        "stimulus_onset_ms": 1000, "start_intensity": 5,
+        "minimum_intensity": 1, "maximum_intensity": 10,
+        "step_up": 1, "step_down": 1, "success_minimum_targets": 1,
+        "random_seed": 2026, "output_directory": "condition_data"
+      }
+    },
+    {
+      "action": "text",
+      "title": "Cognitive load",
+      "text": "This block contains equally many text-message and simulated-buffering trials. Keep collecting crystals. Click to begin."
+    },
+    {
+      "action": "game-adaptive",
+      "duration": 240,
+      "condition": "cognitive",
+      "staircase_trials": 80,
+      "start_level": 3.5,
+      "level_completion_increment": 0.4,
+      "level_death_decrement": 0.3,
+      "continuous_asteroids_on_same_level": true,
+      "show_advance_countdown": false,
+      "level_templates": "experimental_level_templates.json",
+      "experimental_condition": {
+        "name": "cognitive", "trial_count": 80, "trial_duration_ms": 6000,
+        "stimulus_onset_ms": 1000, "start_intensity": 5,
+        "minimum_intensity": 1, "maximum_intensity": 10,
+        "step_up": 1, "step_down": 1, "success_minimum_targets": 1,
+        "random_seed": 2026, "output_directory": "condition_data"
+      }
+    },
+    {
+      "action": "text",
+      "title": "Mixed load",
+      "text": "This block combines perceptual and cognitive load. The four possible stimulus pairings occur equally often. Click to begin."
+    },
+    {
+      "action": "game-adaptive",
+      "duration": 240,
+      "condition": "mixed",
+      "staircase_trials": 80,
+      "start_level": 3.5,
+      "level_completion_increment": 0.4,
+      "level_death_decrement": 0.3,
+      "continuous_asteroids_on_same_level": true,
+      "show_advance_countdown": false,
+      "level_templates": "experimental_level_templates.json",
+      "experimental_condition": {
+        "name": "mixed", "trial_count": 80, "trial_duration_ms": 6000,
+        "stimulus_onset_ms": 1000, "start_intensity": 5,
+        "minimum_intensity": 1, "maximum_intensity": 10,
+        "step_up": 1, "step_down": 1, "success_minimum_targets": 1,
+        "random_seed": 2026, "output_directory": "condition_data"
+      }
+    },
+    {"action": "text", "title": "Finished", "text": "Thank you. The three condition data files have been saved. Click to exit."}
+  ]
+}

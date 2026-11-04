@@ -1,0 +1,133 @@
+{
+  "output_trigger_settings": {
+    "mode": "none"
+  },
+  "steps": [
+    {
+      "action": "text",
+      "title": "Practice",
+      "text": "1-BACK MENTAL ARITHMETIC TASK\n\nSolve each addition or subtraction equation in your head. Remember the numerical ANSWER, not the equation.\n\nCompare the current answer with the answer from ONE trial earlier. Different equations can have the same answer.\n\nRIGHT-CLICK = SAME ANSWER. LEFT-CLICK = DIFFERENT ANSWER.\n\nEach equation stays visible for 8 seconds. The first trial are memory only; do not respond.\n\nAfter each equation, collect the crystal and avoid asteroids. Ignore distractions."
+    },
+    {
+      "action": "game-adaptive",
+      "level_templates": "staircase_levels.json",
+      "start_level": 2,
+      "level_completion_increment": 0,
+      "level_death_decrement": 0,
+      "continuous_asteroids_on_same_level": false,
+      "show_advance_countdown": false,
+      "experimental_condition": {
+        "name": "practice",
+        "trial_count": 15,
+        "crystal_activation_delay_ms": 8000,
+        "output_directory": "part_a_data"
+      }
+    },
+    {
+      "action": "text",
+      "title": "Calibration",
+      "text": "1-BACK MENTAL ARITHMETIC\n\nSolve each addition or subtraction equation in your head. Remember the numerical ANSWER, not the equation.\n\nCompare the current answer with the answer from ONE trial earlier. Different equations can have the same answer.\n\nRIGHT-CLICK = SAME ANSWER. LEFT-CLICK = DIFFERENT ANSWER.\n\nEach equation stays visible for 8 seconds. The first trial are memory only; do not respond.\n\nAfter each equation, collect the crystal and avoid asteroids. Ignore distractions."
+    },
+    {
+      "action": "game-adaptive",
+      "level_templates": "staircase_levels.json",
+      "start_level": 2,
+      "level_completion_increment": 1,
+      "level_death_decrement": 1,
+      "continuous_asteroids_on_same_level": false,
+      "show_advance_countdown": false,
+      "experimental_condition": {
+        "name": "calibration",
+        "trial_count": 23,
+        "corrects_required_for_increase": 2,
+        "crystal_activation_delay_ms": 8000,
+        "output_directory": "part_a_data"
+      }
+    },
+    {
+      "action": "text",
+      "title": "Instructions",
+      "text": "1-BACK MENTAL ARITHMETIC\n\nSolve each addition or subtraction equation in your head. Remember the numerical ANSWER, not the equation.\n\nCompare the current answer with the answer from ONE trial earlier. Different equations can have the same answer.\n\nRIGHT-CLICK = SAME ANSWER. LEFT-CLICK = DIFFERENT ANSWER.\n\nEach equation stays visible for 8 seconds. The first trial are memory only; do not respond.\n\nAfter each equation, collect the crystal and avoid asteroids. Ignore distractions."
+    },
+    {
+      "action": "game-adaptive",
+      "level_templates": "staircase_levels.json",
+      "start_level": 2,
+      "level_completion_increment": 0,
+      "level_death_decrement": 0,
+      "continuous_asteroids_on_same_level": false,
+      "show_advance_countdown": false,
+      "experimental_condition": {
+        "name": "control",
+        "trial_count": 43,
+        "crystal_activation_delay_ms": 8000,
+        "output_directory": "part_a_data"
+      }
+    },
+    {
+      "action": "text",
+      "title": "Instructions",
+      "text": "1-BACK MENTAL ARITHMETIC\n\nSolve each addition or subtraction equation in your head. Remember the numerical ANSWER, not the equation.\n\nCompare the current answer with the answer from ONE trial earlier. Different equations can have the same answer.\n\nRIGHT-CLICK = SAME ANSWER. LEFT-CLICK = DIFFERENT ANSWER.\n\nEach equation stays visible for 8 seconds. The first trial are memory only; do not respond.\n\nAfter each equation, collect the crystal and avoid asteroids. Ignore distractions."
+    },
+    {
+      "action": "game-adaptive",
+      "level_templates": "staircase_levels.json",
+      "start_level": 2,
+      "level_completion_increment": 0,
+      "level_death_decrement": 0,
+      "continuous_asteroids_on_same_level": false,
+      "show_advance_countdown": false,
+      "experimental_condition": {
+        "name": "cognitive",
+        "trial_count": 43,
+        "crystal_activation_delay_ms": 8000,
+        "output_directory": "part_a_data"
+      }
+    },
+    {
+      "action": "text",
+      "title": "Instructions",
+      "text": "1-BACK MENTAL ARITHMETIC\n\nSolve each addition or subtraction equation in your head. Remember the numerical ANSWER, not the equation.\n\nCompare the current answer with the answer from ONE trial earlier. Different equations can have the same answer.\n\nRIGHT-CLICK = SAME ANSWER. LEFT-CLICK = DIFFERENT ANSWER.\n\nEach equation stays visible for 8 seconds. The first trial are memory only; do not respond.\n\nAfter each equation, collect the crystal and avoid asteroids. Ignore distractions."
+    },
+    {
+      "action": "game-adaptive",
+      "level_templates": "staircase_levels.json",
+      "start_level": 2,
+      "level_completion_increment": 0,
+      "level_death_decrement": 0,
+      "continuous_asteroids_on_same_level": false,
+      "show_advance_countdown": false,
+      "experimental_condition": {
+        "name": "perceptual",
+        "trial_count": 43,
+        "crystal_activation_delay_ms": 8000,
+        "output_directory": "part_a_data"
+      }
+    },
+    {
+      "action": "text",
+      "title": "Instructions",
+      "text": "1-BACK MENTAL ARITHMETIC\n\nSolve each addition or subtraction equation in your head. Remember the numerical ANSWER, not the equation.\n\nCompare the current answer with the answer from ONE trial earlier. Different equations can have the same answer.\n\nRIGHT-CLICK = SAME ANSWER. LEFT-CLICK = DIFFERENT ANSWER.\n\nEach equation stays visible for 8 seconds. The first trial are memory only; do not respond.\n\nAfter each equation, collect the crystal and avoid asteroids. Ignore distractions."
+    },
+    {
+      "action": "game-adaptive",
+      "level_templates": "staircase_levels.json",
+      "start_level": 2,
+      "level_completion_increment": 0,
+      "level_death_decrement": 0,
+      "continuous_asteroids_on_same_level": false,
+      "show_advance_countdown": false,
+      "experimental_condition": {
+        "name": "combined",
+        "trial_count": 43,
+        "crystal_activation_delay_ms": 8000,
+        "output_directory": "part_a_data"
+      }
+    },
+    {
+      "action": "text",
+      "title": "Finished",
+      "text": "Thank you. You have completed the arithmetic 1-back experiment."
+    }
+  ]
+}
