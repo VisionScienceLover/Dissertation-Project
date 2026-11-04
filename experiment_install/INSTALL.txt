@@ -1,0 +1,32 @@
+ASTEROID IMPACT LOAD EXPERIMENT INSTALLATION
+
+1. Extract this ZIP file.
+2. Copy every item inside the experiment_install folder into:
+   C:\Users\gerha\Desktop\asteroid_impact_py3-master\src
+3. When Windows asks, choose Replace the files in the destination.
+4. Keep the data folder as a folder; allow Windows to merge it with the
+   existing src\data folder.
+
+Run from Anaconda Prompt:
+
+   conda activate asteroid
+   cd /d "C:\Users\gerha\Desktop\asteroid_impact_py3-master\src"
+   python gamemaster.py
+
+The program asks for a subject number and automatically loads
+experimental_conditions.json.
+
+OUTPUT
+
+Frame and staircase files:
+   src\data\subject_<ID>_<timestamp>_frames.csv
+   src\data\subject_<ID>_<timestamp>_staircase.csv
+
+Condition-level files (one row per timed notification trial):
+   src\condition_data\<ID>_run-1_perceptual_trials.csv
+   src\condition_data\<ID>_run-1_cognitive_trials.csv
+   src\condition_data\<ID>_run-1_mixed_trials.csv
+
+Each condition contains 80 trials. Perceptual trials balance visual banners
+and sounds. Cognitive trials balance text messages and buffering. Mixed trials
+balance all four perceptual/cognitive pairings.
